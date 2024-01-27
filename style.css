@@ -98,3 +98,22 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+@media screen and (max-width: 500px) {
+    .row{
+        width: 350px;
+    }
+    button{
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .row{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .row{
+        width: 250px;
+    }
+}
